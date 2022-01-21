@@ -1,0 +1,51 @@
+.btn a:link,
+.btn a:visited,
+input[type=submit] {
+    color: #d6c4ca;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #aaa96b solid 1px;
+    border-radius: 20px;
+    background-color: rgb(10, 16, 51);
+}
+
+.btn a:hover,
+.btn a:active,
+input[type=submit]:hover {
+    background-color: #794b59;
+    color: rgb(99, 147, 187);
+}
+
+input[type=text] {
+    color: #212224;
+    padding: 20px 30px;
+    border: #2c3b52 solid 1px;
+    margin: 20px;
+}
+
+body {
+    margin: 50px;
+}
+
+div.imageDiv {
+    margin: 5px;
+    border: 1px solid rgb(163, 13, 13);
+    float: left;
+    width: 180px;
+}
+
+div.imageDiv:hover {
+    border: 1px solid rgb(105, 47, 100);
+}
+
+div.imageDiv img {
+    width: 100%;
+    height: auto;
+}
+
+div.imageTitle {
+    padding: 5px;
+    text-align: center;
+}
